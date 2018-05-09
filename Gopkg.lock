@@ -10,7 +10,8 @@
 [[projects]]
   name = "github.com/docopt/docopt-go"
   packages = ["."]
-  revision = "c5dac536301992c0371c6115d998fb62944bfad3"
+  revision = "784ddc588536785e7299f7272f39101f7faccc3f"
+  version = "0.6.2"
 
 [[projects]]
   name = "github.com/kr/pty"
@@ -37,12 +38,13 @@
   revision = "21052ae46654ecf18dfdba0f7c12701a1e2b3164"
 
 [[projects]]
+  branch = "master"
   name = "golang.org/x/net"
   packages = [
     "html",
     "html/atom"
   ]
-  revision = "1d9fd3b8333e891c0e7353e1adcfe8a612573033"
+  revision = "f73e4c9ed3b7ebdd5f699a16a880c2b1994e50dd"
 
 [[projects]]
   branch = "master"
