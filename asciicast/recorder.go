@@ -1,8 +1,8 @@
 package asciicast
 
 import (
-	"github.com/asciinema/asciinema/terminal"
-	"github.com/asciinema/asciinema/util"
+	"github.com/tylerbutler/asciinema/terminal"
+	"github.com/tylerbutler/asciinema/util"
 )
 
 type Recorder interface {

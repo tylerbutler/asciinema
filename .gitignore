@@ -18,3 +18,6 @@ bin/*
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
 
+# Ignore the vendor folder so dependencies must be restored when a fresh repo is cloned before a build can be done
+# Use `dep ensure` to restore the dependencies, then build with `go build`
+vendor/

@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/asciinema/asciinema/Godeps/_workspace/src/golang.org/x/net/html"
+	"golang.org/x/net/html"
 )
 
 type Env struct {

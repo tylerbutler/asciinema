@@ -3,7 +3,7 @@ package util_test
 import (
 	"testing"
 
-	"github.com/asciinema/asciinema/util"
+	"github.com/tylerbutler/asciinema/util"
 )
 
 func TestConfig_ApiUrl(t *testing.T) {

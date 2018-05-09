@@ -20,7 +20,7 @@ case "$(uname -s).$(uname -m)" in
 esac
 
 version=1.2.0
-url="https://github.com/asciinema/asciinema/releases/download/v${version}/asciinema-${version}-${platform}.tar.gz"
+url="https://github.com/tylerbutler/asciinema/releases/download/v${version}/asciinema-${version}-${platform}.tar.gz"
 bin_name="asciinema"
 sudo=""
 

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/asciinema/asciinema/commands"
+	"github.com/tylerbutler/asciinema/commands"
 )
 
 type testRecorder struct {

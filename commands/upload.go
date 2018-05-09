@@ -3,8 +3,8 @@ package commands
 import (
 	"fmt"
 
-	"github.com/asciinema/asciinema/api"
-	"github.com/asciinema/asciinema/util"
+	"github.com/tylerbutler/asciinema/api"
+	"github.com/tylerbutler/asciinema/util"
 )
 
 type UploadCommand struct {

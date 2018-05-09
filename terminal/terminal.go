@@ -10,13 +10,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/asciinema/asciinema/Godeps/_workspace/src/code.google.com/p/go.crypto/ssh/terminal"
-	"github.com/asciinema/asciinema/Godeps/_workspace/src/github.com/creack/termios/raw"
-	"github.com/asciinema/asciinema/Godeps/_workspace/src/github.com/kr/pty"
-	"github.com/asciinema/asciinema/Godeps/_workspace/src/golang.org/x/text/encoding/unicode"
-	"github.com/asciinema/asciinema/Godeps/_workspace/src/golang.org/x/text/transform"
-	"github.com/asciinema/asciinema/ptyx"
-	"github.com/asciinema/asciinema/util"
+	"github.com/creack/termios/raw"
+	"github.com/kr/pty"
+	"github.com/tylerbutler/asciinema/ptyx"
+	"github.com/tylerbutler/asciinema/util"
+	"golang.org/x/crypto/ssh/terminal"
+	"golang.org/x/text/encoding/unicode"
+	"golang.org/x/text/transform"
 )
 
 type Terminal interface {
